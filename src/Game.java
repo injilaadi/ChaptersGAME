@@ -1,3 +1,5 @@
+//case and break, fix labels, add end boolean, add story choices, add images
+
 public class Game{
     ChoiceHandler handle = new ChoiceHandler(this);
     State ui = new State();
