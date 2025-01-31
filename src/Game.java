@@ -10,6 +10,7 @@ public class Game{
 
     public Game(){
         ui.createUI(handle);
+
         story.defaultSetup();
         vm.showTitleScreen();
 
@@ -17,6 +18,7 @@ public class Game{
 
     public static void main(String[] args){
         Game launch = new Game();
+
 
 
     }
